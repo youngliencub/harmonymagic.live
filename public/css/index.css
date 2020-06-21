@@ -1,0 +1,141 @@
+body {
+  background-image: linear-gradient(#ffffff, #0C5FE8, #FF7CC5);
+  text-transform: uppercase;
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 900;
+  font-size: 50pt;
+  text-transform: uppercase;
+  color: black;
+  position: fixed;
+  z-index: 1;
+  height: 70px;
+  top: 45px;
+  left: 500px;
+  margin-top: auto;
+  margin-left: auto;
+  transition: color .6s;
+}
+
+h1:hover {
+  color: #0C5FE8;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-style: bold;
+  font-size: 25pt;
+  text-align:left;
+  text-transform: uppercase;
+  color: black;
+  width: 675px;
+}
+
+h3 {
+  font-family: helvetica, arial, sans-serif;
+  font-weigth: 800;
+  font-size: 12.5pt;
+  text-align:left;
+  text-transform: uppercase;
+  color: black;
+  width: 675px;
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-size: 6.25pt;
+  text-align: justify;
+  color: black;
+  width: 700px;
+  padding-bottom: 15px;
+}
+
+.nav {
+  text-align:left;
+  color: black;
+  float:right;
+  margin-right: 115px;
+  margin-top: 80px;
+  padding-right: 80px
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  font-family: helvetica, arial. sans-serif;
+  font-weight: 600;
+  font-size: 9pt;
+  text-transform: uppercase;
+  color: black;
+  margin: 0px;
+  padding: 0;
+  position: fixed;
+}
+
+a {
+  font-family: helvetica, arial. sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: color .5s;
+}
+
+a:hover {
+  font-family: helvetica, arial. sans-serif;
+  text-decoration: none;
+  color: #FF7CC5;
+}
+
+.header {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  align: center;
+  width: 100%;
+  padding-left: 0px;
+  transition-timing-function: ease;
+}
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left:35px;
+  //*border: 2px dotted red;*//
+  column-count:2;
+  max-width: 1520px;
+  width: 100%;
+  overflow:hidden;
+  align-items:center;
+
+}
+
+.container {
+  float: left;
+  /*border: 2px dotted black;*/
+  width: 700px;
+  overflow:hidden;
+  padding-left: 60px;
+  /*padding-right: 60px;*/
+}
+
+div {
+  /*border: 2px solid black;*/
+}
+
+img {
+  height: 700px;
+  width: 700px;
+  /*border: 2px solid green;*/
+  overflow:hidden;
+  align-content: center;
+  object-fit: cover;
+}
+
+.footer {
+  align: center;
+  align-content: center;
+  margin-left: 100px;
+}
